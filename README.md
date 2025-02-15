@@ -1,5 +1,5 @@
 ## about
-It's a toy implementation of bindless port-forwarder written in Java (it's even kinda works).
+It's a toy implementation of bindless port-forwarder written in Java (it even kinda works).
 Bindless means, there is no socket bound on host's side, we are directly pushing to websocket connected to k8s api.
 Because of that, single port (in our case: 80) can handle multiple request to different hosts (application in k8s).
 
